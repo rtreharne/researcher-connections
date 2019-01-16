@@ -1,0 +1,90 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "30e9c65dc71c6fcaf8b6a44f69ae0804f961f7094e94e80c8f0af956b9263e1b"
+        },
+        "host-environment-markers": {
+            "implementation_name": "cpython",
+            "implementation_version": "3.5.2",
+            "os_name": "posix",
+            "platform_machine": "x86_64",
+            "platform_python_implementation": "CPython",
+            "platform_release": "4.15.0-43-generic",
+            "platform_system": "Linux",
+            "platform_version": "#46~16.04.1-Ubuntu SMP Fri Dec 7 13:31:08 UTC 2018",
+            "python_full_version": "3.5.2",
+            "python_version": "3.5",
+            "sys_platform": "linux"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.5"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "cachetools": {
+            "hashes": [],
+            "version": "==3.0.0"
+        },
+        "google-api-python-client": {
+            "hashes": [],
+            "version": "==1.7.7"
+        },
+        "google-auth": {
+            "hashes": [],
+            "version": "==1.6.2"
+        },
+        "google-auth-httplib2": {
+            "hashes": [],
+            "version": "==0.0.3"
+        },
+        "httplib2": {
+            "hashes": [],
+            "version": "==0.12.0"
+        },
+        "numpy": {
+            "hashes": [],
+            "version": "==1.16.0"
+        },
+        "pandas": {
+            "hashes": [],
+            "version": "==0.23.4"
+        },
+        "pyasn1": {
+            "hashes": [],
+            "version": "==0.4.5"
+        },
+        "pyasn1-modules": {
+            "hashes": [],
+            "version": "==0.2.3"
+        },
+        "python-dateutil": {
+            "hashes": [],
+            "version": "==2.7.5"
+        },
+        "pytz": {
+            "hashes": [],
+            "version": "==2018.9"
+        },
+        "rsa": {
+            "hashes": [],
+            "version": "==4.0"
+        },
+        "six": {
+            "hashes": [],
+            "version": "==1.12.0"
+        },
+        "uritemplate": {
+            "hashes": [],
+            "version": "==3.0.0"
+        }
+    },
+    "develop": {}
+}
