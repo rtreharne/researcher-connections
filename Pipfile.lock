@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "30e9c65dc71c6fcaf8b6a44f69ae0804f961f7094e94e80c8f0af956b9263e1b"
+            "sha256": "0d2f0664c9241ddb6850b89e3a83007bd4f828876b9dabed4e9b0fd3629f7189"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -29,6 +29,10 @@
         ]
     },
     "default": {
+        "beautifulsoup4": {
+            "hashes": [],
+            "version": "==4.7.1"
+        },
         "cachetools": {
             "hashes": [],
             "version": "==3.0.0"
@@ -45,13 +49,29 @@
             "hashes": [],
             "version": "==0.0.3"
         },
+        "html2text": {
+            "hashes": [],
+            "version": "==2018.1.9"
+        },
+        "html5lib": {
+            "hashes": [],
+            "version": "==1.0.1"
+        },
         "httplib2": {
             "hashes": [],
             "version": "==0.12.0"
         },
+        "lxml": {
+            "hashes": [],
+            "version": "==4.3.0"
+        },
         "numpy": {
             "hashes": [],
             "version": "==1.16.0"
+        },
+        "oauth2client": {
+            "hashes": [],
+            "version": "==4.1.3"
         },
         "pandas": {
             "hashes": [],
@@ -81,9 +101,17 @@
             "hashes": [],
             "version": "==1.12.0"
         },
+        "soupsieve": {
+            "hashes": [],
+            "version": "==1.7.1"
+        },
         "uritemplate": {
             "hashes": [],
             "version": "==3.0.0"
+        },
+        "webencodings": {
+            "hashes": [],
+            "version": "==0.5.1"
         }
     },
     "develop": {}

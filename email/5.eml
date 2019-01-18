@@ -1,0 +1,45 @@
+Content-Type: multipart/alternative;
+ boundary="===============6921905132093687924=="
+MIME-Version: 1.0
+Subject: 
+From: R.Treharne@liverpool.ac.uk
+To: e.michalopoulou@liverpool.ac.uk
+
+--===============6921905132093687924==
+Content-Type: text/html; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+              <html>
+                  <head></head>
+                  <body>
+                      <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Email address</th>
+      <th>Name</th>
+      <th>Institute</th>
+      <th>Department</th>
+      <th>Please briefly state why you want to teach</th>
+      <th>Briefly indicate why you are interested in the option(s) that you have chosen. Please include details for relevant background and experience.</th>
+      <th>Preferred type of teaching (tick all that apply)</th>
+      <th>Do you have a teaching qualification?</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href='mailto:nrickett@liv.ac.uk'>nrickett@liv.ac.uk</a></td>
+      <td>Natasha Rickett</td>
+      <td>Infection and Global Health</td>
+      <td>Infection Biology</td>
+      <td>I've taught first year modules before and found it rewarding.</td>
+      <td>We did something similar at LSHTM and I loved it, would be great to recreate that for current students. I have teaching experience at the Uni.</td>
+      <td>Small group lectures (<40 students), Workshops (< 40 students)</td>
+      <td>I do not have a teaching qualification.</td>
+    </tr>
+  </tbody>
+</table>
+                  </body>
+              </html>
+              
+--===============6921905132093687924==--

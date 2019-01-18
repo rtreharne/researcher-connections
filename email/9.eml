@@ -1,0 +1,45 @@
+Content-Type: multipart/alternative;
+ boundary="===============5300978311049087350=="
+MIME-Version: 1.0
+Subject: 
+From: R.Treharne@liverpool.ac.uk
+To: scornell@liv.ac.uk
+
+--===============5300978311049087350==
+Content-Type: text/html; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+              <html>
+                  <head></head>
+                  <body>
+                      <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Email address</th>
+      <th>Name</th>
+      <th>Institute</th>
+      <th>Department</th>
+      <th>Please briefly state why you want to teach</th>
+      <th>Briefly indicate why you are interested in the option(s) that you have chosen. Please include details for relevant background and experience.</th>
+      <th>Preferred type of teaching (tick all that apply)</th>
+      <th>Do you have a teaching qualification?</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href='mailto:clementine.lesbats@liverpool.ac.uk'>clementine.lesbats@liverpool.ac.uk</a></td>
+      <td>Clementine Lesbats</td>
+      <td>Translational Medicine</td>
+      <td>Centre for Preclinical Imaging</td>
+      <td>I would like to teach to improve my academic and communication skills and expand my career to some form of teaching.</td>
+      <td>The modules I have selected are introducing and teaching some informatics and statistics applied to life sciences (LIFE721, LIFE238 and LIFE223).\nI studied physiology and biology (BSc) but also biological and medical data processing (MSc). My current research and interests are focused on the quantitative analysis of in vivo and ex vivo MRI data, and the statistical analysis between groups.\n\nLIFE721: informatics for life sciences 2 - I have a strong experience with data processing using computer and numerous softwares.\nLIFE238: Advanced Experimental Design and Analysis - I am applying different statistical tests for each of my studies, including non-parametric statistical tests. I also have some experience with different softwares such as Origin, Prism, and SPSS.\nLIFE223: Essential Skills for the Life Sciences 2 - I am particularly interested in presentation skills, how to make figures and present data to an audience broader than the community of specialists in the field.</td>
+      <td>Small group lectures (<40 students), Workshops (< 40 students), Practical classes (large groups)</td>
+      <td>I do not have a teaching qualification.</td>
+    </tr>
+  </tbody>
+</table>
+                  </body>
+              </html>
+              
+--===============5300978311049087350==--

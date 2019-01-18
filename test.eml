@@ -1,0 +1,20 @@
+Content-Type: multipart/alternative;
+ boundary="===============1714410783203712897=="
+MIME-Version: 1.0
+Subject: 
+From: R.Treharne@liverpool.ac.uk
+To: R.Treharne@liverpool.ac.uk
+
+--===============1714410783203712897==
+Content-Type: text/html; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+              <html>
+                  <head></head>
+                  <body>
+                      <p> hello world </p>
+                  </body>
+              </html>
+              
+--===============1714410783203712897==--
