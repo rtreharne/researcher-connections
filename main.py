@@ -16,12 +16,7 @@ from oauth2client import file, client, tools
 import re
 import email_gen
 import pandas as pd
-
-
-
-ACADEMIC_SPREADSHEET_ID = '1LgSiaEj9oJUiqgtUEFnHVGtAlm5tffTjuvAcYoWJYjg'
-PDRA_SPREADSHEET_ID = '1jp4zyL0l_CazqATbGQlMTh6ensKGQjZO5waw85uC-bQ'
-RANGE = 'Form Responses 1'
+from sheet_info import *
 
 academic_df = get_google_sheet(ACADEMIC_SPREADSHEET_ID, RANGE)
 pdra_df = get_google_sheet(PDRA_SPREADSHEET_ID, RANGE)
