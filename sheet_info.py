@@ -1,3 +1,0 @@
-ACADEMIC_SPREADSHEET_ID = '1LgSiaEj9oJUiqgtUEFnHVGtAlm5tffTjuvAcYoWJYjg'
-PDRA_SPREADSHEET_ID = '1jp4zyL0l_CazqATbGQlMTh6ensKGQjZO5waw85uC-bQ'
-RANGE = 'Form Responses 1'
