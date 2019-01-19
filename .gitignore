@@ -1,5 +1,5 @@
 credentials.json
 sheet_info.py
 *.eml
-.idea/
-.ipynb_checkpoints/
+.idea
+__pycache__
