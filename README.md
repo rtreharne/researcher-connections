@@ -24,7 +24,7 @@ To run:
 click "SHARE" button, then click "Get shareable link". The sheet ID is within the shareable URL that is generated, e.g.
 "https://docs.google.com/spreadsheets/d/<Spreadsheet_ID>/edit?usp=sharing". Then rename "sheet_info_dummy.py" to "sheet_info.py".
 
-4. Run "main.py":
+4. Create an empty folder called "email" in same directory as "main.py". Run "main.py":
 
 ```bash
 $ python main.py

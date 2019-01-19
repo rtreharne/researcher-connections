@@ -1,5 +1,7 @@
 credentials.json
+EMAIL_SETTINGS.py
 sheet_info.py
 *.eml
+**/*.eml
 .idea
 __pycache__
