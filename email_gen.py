@@ -5,6 +5,8 @@ import smtplib
 from EMAIL_SETTINGS import *
 import time
 
+
+
 # Ensure 7-bit encoding (so that eml html is readable).
 charset.add_charset('utf-8', charset.SHORTEST, charset.QP)
 
@@ -53,8 +55,8 @@ class Gen_Email():
     def emailGen(self):
         msg = MIMEMultipart('html')
         msg['Subject'] = "PDRAs have expressed an interest in your Teaching Opportunity"
-        msg['From'] = "telsolslivuni@gmail.com"
-        msg['To'] = "rob.treharne@gmail.com"
+        msg['From'] = "R.Treharne@liverpool.ac.uk"
+        msg['To'] = "R.Treharne@liverpool.ac.uk"
 
         html = """\
               <html>

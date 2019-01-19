@@ -30,5 +30,12 @@ click "SHARE" button, then click "Get shareable link". The sheet ID is within th
 $ python main.py
 ```
 
-This will generate a set of .eml files in the "email" folder. Each email will correspond to each teaching opportunity submitted
-and will contain a list of PDRAs who have expressed interest in the opportunity.
+This will generate a set a timestamped sub-folder containing a series of .eml files in the "email" folder. Each .eml will
+correspond to each teaching opportunity and will contain a html formatted email. The email will include a list of PDRAs who have expressed interest in the opportunity.
+Running the command above will NOT send the emails.
+
+5. To send automated emails to relevant staff run the command:
+
+```bash
+$ python main.py send
+```

@@ -19,6 +19,7 @@ import pandas as pd
 from sheet_info import *
 import time
 import os
+import sys
 
 
 def gen_mailto_links(df):
@@ -61,7 +62,7 @@ def projects_pdras(pdra_strings, academic_strings):
         pdra_projects[i] = project_list
     return transpose_dict(pdra_projects)
 
-def save_and_send(debug=False):
+def save_and_send(debug=True):
     dirname = str(int(time.time()))
     os.mkdir("email/" + dirname)
     for i, key in enumerate(pdra_projects.keys()):
@@ -70,7 +71,7 @@ def save_and_send(debug=False):
         pdra_indices = pdra_projects[key]
         pdra_data = pdra_df.iloc[pdra_indices]
 
-        email_gen.Gen_Email(a_record["Email Address"], 'R.Treharne@liverpool.ac.uk', dir=dirname, a_data = a_record, p_data = pdra_data.iloc[:, [1,2,4,5,7,8,9]])
+        email_gen.Gen_Email(a_record["Email Address"], 'R.Treharne@liverpool.ac.uk', debug=debug, dir=dirname, a_data = a_record, p_data = pdra_data.iloc[:, [1,2,4,5,7,8,9]])
 
 if __name__ =="__main__":
     academic_df = get_google_sheet(ACADEMIC_SPREADSHEET_ID, RANGE)
@@ -80,4 +81,10 @@ if __name__ =="__main__":
     academic_strings = df_to_strings(academic_slim)
     pdra_strings = [re.sub("\s\s+", " ", x).split(",") for x in df_to_strings(pdra_slim)]
     pdra_projects = projects_pdras(pdra_strings, academic_strings)
-    save_and_send()
+    try:
+        if sys.argv[1]=="send":
+            print("Saving and sending ...")
+            save_and_send(debug=False)
+    except IndexError:
+        print("Saving only ...")
+        save_and_send(debug=True)
