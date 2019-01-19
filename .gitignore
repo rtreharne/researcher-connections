@@ -5,3 +5,4 @@ sheet_info.py
 **/*.eml
 .idea
 __pycache__
+token.json
