@@ -78,6 +78,6 @@ if __name__ =="__main__":
     academic_slim = academic_df[academic_df.columns[3:6]]
     pdra_slim = pdra_df[pdra_df.columns[6:7]]
     academic_strings = df_to_strings(academic_slim)
-    pdra_strings = df_to_strings(pdra_slim)
+    pdra_strings = [re.sub("\s\s+", " ", x).split(",") for x in df_to_strings(pdra_slim)]
     pdra_projects = projects_pdras(pdra_strings, academic_strings)
     save_and_send()
